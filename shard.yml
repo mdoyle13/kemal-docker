@@ -1,0 +1,15 @@
+name: service
+version: 0.1.0
+
+authors:
+  - mike doyle <mdoyle13@gmail.com>
+
+targets:
+  service:
+    main: src/service.cr
+    
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
